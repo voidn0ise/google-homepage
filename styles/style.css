@@ -1,0 +1,142 @@
+* {
+  color: #404040;
+  font-size: small;
+  font-family: 'arial', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.nav {
+  text-align: right;
+  height: 118px;
+  margin-top: 12px;
+  color: #222;
+  margin-right: 20px;
+}
+
+#login {
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  background-color: transparent;
+  background-image: -moz-linear-gradient(center top, rgb(67, 135, 253), rgb(70, 131, 234));
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto auto;
+  border: 1px solid #4285f4;
+  padding: 0 12px;
+  line-height: 28px;
+  border-radius: 2px;
+  font-size: 13px;
+}
+
+#submit, #lucky {
+  display: inline-block;
+  font-weight: bold;
+  color: #757575;
+  border: 1px solid #F2F2F2;
+  background-color: #F3F3F3;
+  background-clip: border-box;
+  background-origin: padding-box;
+  border-radius: 2px;
+  line-height: 30px;
+  padding: 0 12px;
+}
+
+#login:hover {
+  box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+
+.main {
+  height: 233px;
+  margin-top: 89px;
+}
+
+.main #inputs {
+  display: inline;
+  height: 118px;
+}
+
+.main #search {
+  position: relative;
+  padding: 0px 9px 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  width: 484px;
+  max-width: 584px;
+  background-color: #FFFFFF;
+  border: 1px solid #E6E6E6;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.16),0 0 0 1px rgba(0,0,0,0.08);
+  transition-property: box-shadow;
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0s;
+  border-radius: 2px;
+  height: 44px;
+  line-height: 44px;
+  vertical-align: top;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+table {
+  display: inline;
+  width: 30;
+  height: 30;
+}
+
+tbody {
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+td {
+  width: 4px;
+  height: 4px;
+  padding: 1px 1px 1px 1px;
+  background-color: #727272;
+}
+
+.footer {
+  height: 40px;
+  background: #F2F2F2;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  border-top: 1px solid #E4E4E4
+}
+
+.footer #left {
+  margin: auto, auto;
+  float: left;
+  padding-top: 10px;
+  color: #6A6A6A;
+}
+
+.footer #right {
+  margin: auto, auto;
+  float: right;
+  padding-top: 10px;
+  color: #6A6A6A;
+}
